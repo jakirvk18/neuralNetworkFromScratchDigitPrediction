@@ -16,25 +16,29 @@ Prediction Visualization: Utilities to visualize model predictions and confidenc
 ## **📁 Project Structure**
 
 ```bash
-NeuralNetWorkFromScratch/
+NeuralNetworkFromScratch/
 │
-├── data/ # MNIST CSV dataset (train/test)
-│ ├── mnist_train.csv
-│ └── mnist_test.csv
+├── data/                     # Datasets (CSV, images, etc.)
+│   └── mnsitdatasets
 │
-├── models/
-│ └── model_utils.py # Model save/load logic using pickle
+├── models/                   # Core neural network implementation
+│   ├── activations.py        # Sigmoid, ReLU, etc.
+│   ├── layers.py             # Layer classes
+│   ├── losses.py             # MSE, Cross Entropy, etc.
+│   ├── neural_net.py         # Main NN class (forward, backward)
+│   └── optimizer.py          # SGD, Momentum, etc.
 │
-├── utils/
-│ └── data_loader.py # Loads and preprocesses MNIST data
+├── utils/                    # Helper functions
+│   ├── data_loader.py        # Load and preprocess datasets
+│   └── plot.py               # For plotting training loss/accuracy
 │
-├── opencv_app/
-│ └── draw_digit.py # OpenCV digit canvas for real-time prediction
+├── notebooks/                # Jupyter notebooks for experiments
+│   └── test_nn.ipynb
 │
-├── train_model.py # Script for training the neural network
-├── visualize_digits.ipynb # Jupyter Notebook to test predictions and visualize results
-├── README.md
-└── trained_model.pkl # Trained model (generated after running train_model.py)
+├── main.py                   # Entry point to train/test the model
+├── config.py                 # Parameters (learning rate, epochs, etc.)
+├── requirements.txt          # Python dependencies
+└── README.md                 # Project overview
 ```
 ## **📦 Requirements**
 Install the necessary dependencies using pip:
