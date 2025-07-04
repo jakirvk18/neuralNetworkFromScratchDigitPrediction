@@ -39,7 +39,7 @@ Install the necessary dependencies using pip:
 pip install numpy pandas opencv-python matplotlib
 
 ## **🧪 Dataset**
-This project utilizes the CSV version of the MNIST dataset. You can download the required files from Kaggle:
+This project utilizes the CSV version of the MNIST dataset. You can download the required files from Kaggle:https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
 
 ## **📥 Kaggle - MNIST in CSV**
 
