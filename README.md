@@ -10,8 +10,8 @@ Live Drawing App: An interactive application built with OpenCV allows you to dra
 
 Prediction Visualization: Utilities to visualize model predictions and confidence scores.
 
+![Screenshot 2025-07-04 212001](https://github.com/user-attachments/assets/7a006db0-4df2-4997-bfae-0585b3294da4)
 
-![Uploading Screenshot 2025-07-04 212001.png…]()
 
 ## **📁 Project Structure**
 
